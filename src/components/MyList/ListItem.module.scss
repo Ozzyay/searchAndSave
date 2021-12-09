@@ -1,0 +1,32 @@
+.text {
+  color: white;
+  max-height: 2ch;
+  max-width: 30ch;
+  line-height: 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.img {
+  width: 75%;
+}
+
+.btn {
+  margin-top: 1rem;
+  background-color: transparent;
+  width: 6rem;
+  height: 2rem;
+  color: white;
+  border: 1px solid #ccc;
+  outline: 0;
+  border-radius: 0.75rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  box-shadow: 0px 0px 4px rgba(204, 204, 204, 0.4);
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.8);
+  transition: box-shadow 0.5s ease-in;
+}
